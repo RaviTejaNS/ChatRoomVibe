@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node server",
-    "dev":"nodemon server"
+    "dev": "nodemon server"
   },
   "author": "Ravi",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "moment": "^2.29.1",
     "socket.io": "^4.0.2"
